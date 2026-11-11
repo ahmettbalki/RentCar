@@ -14,6 +14,8 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Scalar.AspNetCore" Version="2.18.7" />
+    <PackageReference Include="TS.MediatR" Version="10.0.0" />
+    <PackageReference Include="TS.Result" Version="10.0.0" />
   </ItemGroup>
 
   <ItemGroup>
