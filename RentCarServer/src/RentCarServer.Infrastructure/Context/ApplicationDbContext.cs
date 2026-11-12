@@ -75,7 +75,7 @@ internal sealed class ApplicationDbContext : DbContext, IUnitOfWork
                     entry.Property(p => p.UpdatedAt)
                         .CurrentValue = DateTimeOffset.Now;
                     entry.Property(p => p.UpdatedBy)
-                    .CurrentValue = identityId;
+                        .CurrentValue = identityId;
                 }
             }
 
